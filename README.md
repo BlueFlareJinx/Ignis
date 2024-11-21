@@ -5,7 +5,7 @@ Ignis is a lightweight application designed to give you precise control over you
 
 1. Clone the repository:
 ```
-git clone :https://github.com/BlueFlareJinx/Ignis.git
+git clone https://github.com/BlueFlareJinx/Ignis.git
 ```
 
 2. Navigate to the project directory:
