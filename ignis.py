@@ -10,7 +10,7 @@ import gui
 
 # Updateding cuurent windows brightness #
 def getCurrentBrightness():
-    command = "powercfg /q SCHEME_CURRENT SUB_VIDEO VIDEONORMALLEVEL"
+    command = "powercfg /q SCHEME_CURRENT SUB_VIDEO aded5e82-b909-4619-9949-f5d71dac0bcb"
     currentWindowBrightness = os.popen(command).read().strip()
 
     index = currentWindowBrightness.find("Current AC Power Setting Index:") + len("Current AC Power Setting Index: ")
