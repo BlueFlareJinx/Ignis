@@ -63,15 +63,21 @@ def decrease():
 GlobalHotKeys = keyboard.GlobalHotKeys({'<shift>+<alt>+a': increase,'<shift>+<alt>+z': decrease})
 GlobalHotKeys.start()
 
-# Main Application
+# # Main Application
+# root = tk.Tk()
+# root.withdraw()  # Hide the root window
+
+# # Define custom styles
+# style = ttk.Style()
+# style.configure("Toast.TFrame", background="#333", relief="flat")
+# style.configure("Toast.TLabel", background="#333", foreground="#fff", font=("Arial", 14))
+
+# root.mainloop()
+
+ #Example usage
 root = tk.Tk()
-root.withdraw()  # Hide the root window
-
-# Define custom styles
-style = ttk.Style()
-style.configure("Toast.TFrame", background="#333", relief="flat")
-style.configure("Toast.TLabel", background="#333", foreground="#fff", font=("Arial", 14))
-
+root.withdraw()  # Hide the main window
+# show_toast("This is a toast message!", duration=3000)
 root.mainloop()
 
 # # Hotkeys: Handleing keyboared input #
